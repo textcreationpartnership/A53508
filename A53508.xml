@@ -1,0 +1,1090 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached at St. Michaels, Wood-Street, at the request of some Friends and now published to prevent mistakes / by Titus Oates ...</title>
+            <author>Oates, Titus, 1649-1705.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1679</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 94 KB of XML-encoded text transcribed from 14 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A53508</idno>
+            <idno type="STC">Wing O54</idno>
+            <idno type="STC">ESTC R15541</idno>
+            <idno type="EEBO-CITATION">13593884</idno>
+            <idno type="OCLC">ocm 13593884</idno>
+            <idno type="VID">100714</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A53508)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 100714)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 797:31)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached at St. Michaels, Wood-Street, at the request of some Friends and now published to prevent mistakes / by Titus Oates ...</title>
+                  <author>Oates, Titus, 1649-1705.</author>
+               </titleStmt>
+               <extent>26 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>Reprinted at Dublin :</pubPlace>
+                  <date>1679.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Licensed March 11, 1678/9; William Jane"--p. 2.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Matthew XVIII, 11 --  Sermons.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-10</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2010-10</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:100714:1"/>
+            <pb facs="tcp:100714:1" rendition="simple:additions"/>
+            <p>SERMON PREACHED AT <hi>St.</hi> MICHAELS <hi>Wood-ſtreet,</hi> At the requeſt of ſome Friends; And new Publiſhed to prevent MISTAKES.</p>
+            <p>BY Titus Oates D. D.</p>
+            <q>There is one God, and one Mediator betwixt God and Man, the Man Chriſt Je<g ref="char:EOLhyphen"/>ſus, who gave himſelf a Ranſome for all. <bibl>
+                  <hi>2 Tim. 2.5, 6.</hi>
+               </bibl>
+            </q>
+            <p>Reprinted at <hi>Dublin,</hi> M DC.LXXIX.</p>
+         </div>
+         <div type="license">
+            <pb facs="tcp:100714:2"/>
+            <p>Licenſed,</p>
+            <closer>
+               <date>
+                  <hi>March</hi> 11. 1678/9.</date>
+               <signed>WIILIAM JANE.</signed>
+            </closer>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:100714:2"/>
+            <head>To his Illuſtrious Highneſs Prince RUPERT, Count Palatine of the <hi>Rhine,</hi> Duke of <hi>Bavaria</hi> and <hi>Cumberland,</hi> Vice-Admiral of all <hi>England,</hi> Knight of the moſt Noble Order of the Garter, Conſta<g ref="char:EOLhyphen"/>ble of his Majeſties Caſtle and Honour of <hi>Windſor,</hi> and one of his Majeſties moſt Ho<g ref="char:EOLhyphen"/>nourable Privy Council, <hi>&amp;c.</hi> The Publiſher humbly Dedicates the enſuing Diſcourſe.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">I</seg> Have preſumed to Dedicate this plain Diſcourſe, touching the Eternal Deliverance of the World, to your Illuſtrious High<g ref="char:EOLhyphen"/>neſs, to whom, under God, and our Gracious Soveraign, is chiefly owing a very conſiderable Temporal Deliverance to this Nation.</p>
+            <p>For without your Highneſs's great Zeal and Intereſt, and generous Example, to ſeveral Right Noble and willing Lords and Patriots, to ſupport the Evidence, (and ſome miraculous Providences intervening) it hardly had fail'd, but that Might and Craft had quite ſtifled and over-laiden the Truth in weak Hands, and brought a diſmal Deluge of Blood and ſlavery upon the Nation, both our Princes and People, in an inſtant, before Men had been awake, or aware.</p>
+            <p>It is not for my weak Pen, to recount the Merits of your Highneſs, and your renowned Courage, and innumerable hazards, and perils, and ſufferings, in our behalf, whereby you are moſt great and dear to all, by being ſo cheap to your ſelf: nor the Lovelineſs of your generous ſincerity, and Patronage of the Proteſtant Religion, without changing, or doubting, or fear, where<g ref="char:EOLhyphen"/>by you are, under his Moſt Gracious Majeſty, a great Darling to all <hi>Engliſh</hi> Hearts, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>leſſing God for you throughout the Nation, not any perhaps of the moſt ſeduc'd Sects amongſt us, diſſenting in this common Vote and Acclama<g ref="char:EOLhyphen"/>tion. Yea, well might I bluſh, at the meanneſs of this Preſent to ſo great a Prince, but that I truſt, through your Highneſs's candid Conſtruction and Acceptance, to convey therein, for want of a better Inſtance, ſome repreſen<g ref="char:EOLhyphen"/>tation and aſſurance of that large and eternal Gratitude of my Heart and Soul which, I truſt, no Power on Earth can ever make me aſhamed to acknow<g ref="char:EOLhyphen"/>ledge and maintain, amongſt the reſt of his Majeſties good Subjects, towards your Highneſs, while I am, what I ever ought, and ſhall be,</p>
+            <closer>
+               <signed>Your Highneſs's moſt humble and moſt faithful Servant,</signed>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:100714:3"/>
+            <head>To the READER.</head>
+            <opener>
+               <salute>Chriſtian Reader,</salute>
+            </opener>
+            <p>THIS Diſcourſe comes forth not for any oſtentation, but for general ſatiſ<g ref="char:EOLhyphen"/>faction, upon occaſion of ſome Exceptions raiſed againſt it, by ſome open and ſome ſecret Enemies, which my preſent Affair hath raiſed againſt me in great numbers, as God in his goodneſs hath relieved me likewiſe on the other hand with no fewer Friends.</p>
+            <p>Neceſſary therefore, and juſt it was, to repreſent it here, in the ſame form and manner it was delivered from a very few Notes, as near as memory could reach and recover, for which gift and happineſs, as for all other mercies, I owe ſpecial ac<g ref="char:EOLhyphen"/>knowledgment to God.</p>
+            <p>Wherein the conſideration of my ſo little leiſure to recollect or pen, in my preſent Circumſtances, and multitude of other Affairs, and Viſits, may gain for me ſome grains of allowance, for the Style, with favourable and candid Judges; though had I more, it ever was, and ſhould be my Rule and Principle, as the beſt Method of ſucceſs, and bleſſing from God upon my Labours, to be ſerious, rather than light in ſuch a Work, and to affect a naked, pertinent Solidity, above any vain-glorious Digreſſions of Wit and Eloquence, and the Edification of my meaneſt Auditors, ra<g ref="char:EOLhyphen"/>ther than my own Fame.</p>
+            <p>For the Points of Doctrine therein maintained, it was my ſpecial aim and care, in this great Embaſſie between God and Souls, as uſually it is in others, to follow my Inſtructions, and to utter nothing as God's Word, what was not manifeſtly grounded on clear Scriptures, according to the beſt of my skill, and former Studies; wherein, if my ſincere apprehenſions of God's Mind, concur not, in every branch and circumſtance, with other men's thought or opinion, if ſuch be of equal degree, I both humbly beg, as I ſhall yield, with honour, a mutual, fraternal liberty of ſin<g ref="char:EOLhyphen"/>cere Sentiment, and purſuit after the beſt, and moſt certain knowledge of God's Truth; if my Superiours, any way, in Age, or Studies, and eſpecially in Authori<g ref="char:EOLhyphen"/>ty over me in the Church, I count it Duty, to alter my Liberty into Submiſſion, in Points Controverſial, for the ſake of publick Peace and Order, whereby Truth it ſelf in the end is beſt preſerved.</p>
+            <p>And no Church more deſerves this deference, and ſubmiſſive Truſt of her Sons, than our own Mother of <hi>Britain,</hi> which merits this Confidence from her Diſciples, not only for her hoary and Apoſtolical Antiquity, but for a right diſcharge of her Truſt and Government, inſiſting Truth from Error, as is ſufficiently aſſerted, and made to appear, by many its Right Learned Defenders, both Ancient and
+<pb facs="tcp:100714:3"/>Modern, from the Reformation to this preſent, to whom I refer thee; and, more particularly, to Mr. <hi>Jones,</hi> his excellent and learned Treatiſe of the <hi>Soveraign of the Heart,</hi> which I have peruſed, with much ſatisfaction and benefit; wherein, amongſt many good Notions and Principles, two main boaſts and pretences, of the Idolatrous and heartleſs Synagogue of <hi>Rome,</hi> (wherewith both the wiſe and ſin<g ref="char:EOLhyphen"/>cere have been often captivated) are fully refuted and overthrown, thoſe of <hi>firſt Plantation,</hi> and, <hi>after Ordinations,</hi> pretended to be conveyed, from that Abomi<g ref="char:EOLhyphen"/>nable Strumpet, to <hi>England,</hi> our true Mother-Church.</p>
+            <p>Yet much it were to be wiſhed, <hi>1.</hi> That <hi>Sion,</hi> in ſome reſpects, were as wiſe in its Generation, as <hi>Babylon;</hi> and that we of this Church, had that ſubmiſſion to Governours, and Brotherly <g ref="char:V">Ʋ</g>nion, and nearneſs to one another, and of publick ſpi<g ref="char:EOLhyphen"/>rit, to ſhew for the Truth, which they of <hi>Rome</hi> expreſs, to propagate their Er<g ref="char:EOLhyphen"/>rors, which would be true Chriſtian charity and zeal, and regular Order in us, out of conſcience to Chriſt, which, in them, it is too much to be fear'd, is but ſpiritual ſlavery, and a riotous combination, for the intereſt and ambition of their Pope and Clergy.</p>
+            <p n="2">2. That thoſe alſo who are gone aſtray in Schiſm, and ſeparation from this Church, would ſeriouſly bethink themſelves, how injurious they are, and have been therein, to God and the Countrey, by weakning and undermining the Proteſtant Intereſt, by their Diviſions, and infinitely gratifying and advancing the Papal, though (I truſt) againſt their Intentions and Deſign: And that the Reverend Fathers of our Church, would, by meekneſs, ſmooth the way for their repentance and return, and like the tender Father in the Goſpel, meet them afar off, to fall upon their Necks, and kiſs them.</p>
+            <p n="3">3. That all ſorts and degrees amongſt us, would be more careful to verifie, and adorn their excellent Proteſtant Principles and Doctrines, with a ſuitable Chri<g ref="char:EOLhyphen"/>ſtian Converſation, and Reformation of Life, without which, there will be little or no Truth found in us in God's ſight, whatever may be our profeſſions and pretences before Men.</p>
+            <p>And laſtly, It is my own humble requeſt to all Chriſtian Brethren, who have a ſenſe and compaſſion of the danger I am in, from ſo many Enemies, that they would drop a Tear in private, in my behalf, for my preſervation, from the ſtrong Lyes and Machinations of a ſort of Men, not inferiour for malice, and cruelty, and enmi<g ref="char:EOLhyphen"/>ty to the Truth, to the Powers of the Air, and likewiſe as inviſible, though aboun<g ref="char:EOLhyphen"/>ding in our Air as much as the other) through their lying Artifices, and flinching changeableneſs, and equivocation in Names, and Habits, and Dialect, and Pre<g ref="char:EOLhyphen"/>tences, from the School to the Gallows, far unlike honeſt, plain-dealing Men, or erect and generous Chriſtians, who have a God, and the World to come, for their truſt and refuge, againſt whom I muſt ſtand upon my Guard, throughout my Life, for
+<pb facs="tcp:100714:4"/>no other cauſe, but my Fidelity to my King and Countrey, which with them is counted Treachery. And that God would ſtand by me in my information and teſtimony, be<g ref="char:EOLhyphen"/>fore Tribunals and Councils, to direct and preſerve me from wronging, or unjuſtly fa<g ref="char:EOLhyphen"/>vouring any of them, great or ſmall, in the leaſt tittle, which always was, and ſhall be, more my fear, than the fear of death. Yea, that God in his infinite mercy, would un<g ref="char:EOLhyphen"/>bewitch this <hi>Roman-Catholick</hi> Synagogue, who believe none to be Chriſtians but themſelves, who hardly are, and give them humility, and repentance, and love of the Truth, to diſcern &amp; abandon their monſtrous Hereſies, &amp; ſtupendious abominations, which would ſoon turn all our fears, &amp; jealouſies, &amp; chargeable watchings, into love, and mutual confidence, and thanksgiving, to the great peace and quiet of all Chri<g ref="char:EOLhyphen"/>ſtians, throughout this Land, and throughout the World. <hi>Farewel.</hi>
+            </p>
+            <closer>
+               <signed>
+                  <hi>I am thy Brother and Servant in our deareſt Redeemer,</hi> Titus Oates.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="7" facs="tcp:100714:4"/>
+            <head>A SERMON Preached at St. <hi>Michaels Wood-ſtreet,</hi> &amp;c.</head>
+            <epigraph>
+               <bibl>Matth. <hi>18.11.</hi>
+               </bibl>
+               <q>The Son of man is come to ſave that which was loſt.</q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">A</seg>Lmighty God, hath of his infinite mercy, and goodneſs, been pleaſed at ſundry times, and in divers manners, to manifeſt himſelf to the World. Firſt, By the Patriarches, whom he did conſtitute Preachers of Rigteouſ<g ref="char:EOLhyphen"/>neſs, and by whom he made his will known to the ſons of men, and then by his Angels, by whoſe miniſtration, and diſpoſition, the <hi>Jews</hi> did per<g ref="char:EOLhyphen"/>ceive the Law. And after that by the Prophets, who alſo were publiſh<g ref="char:EOLhyphen"/>ers of the will of God, to men, in order to their reformation; But in theſe laſt days, ſpoken unto us by his Son, whom he ſent out of his boſom, to execute the Office of a Prophet; declaring his will and pleaſure: and as a King to Rule and Govern his Church; in order to which, he hath given him all power both in heaven and earth, &amp; by whom alſo he did make the World (who being the means of our better underſtanding) the brightneſs of the glory of the eternal God (which to us is inviſible) and upholding all things by the word of his power, aſcended into Heaven, and ſitteth at the right hand of God, and e<g ref="char:EOLhyphen"/>ver liveth to make interceſſion for us, and will again appear as a King and as a Judge, to puniſh offenders. This is he who is repreſented in my Text, that ſaith, <hi>The Son of Man is come to ſave that which was loſt.</hi>
+            </p>
+            <p>In which words we ſhall inquire, 1. Why Chriſt is called the Son. 2. Why he is ca<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d the Son of man. 3. To what end he came into the World; as the Text tells us, <hi>He came to ſave that which was loſt.</hi>
+            </p>
+            <p n="1">1. Why he is called the Son; the Son of God as elſewhere, and the Son of Man; as in my Text; we are to underſtand that God, though he had an eſpecial reſpect to the An<g ref="char:EOLhyphen"/>gels, yet he thought it not fit, that they ſhould have this honour conferred on them, to be called the Sons of God.</p>
+            <p n="1">1. So that the firſt reaſon, why Jeſus Chriſt is called the Son, was to demonſtrate his eternal generation; for in this appellation, the Apoſtle St. <hi>Paul</hi> diſcovereth to us the dig<g ref="char:EOLhyphen"/>nity of Chriſt <hi>above</hi> the Angels of heaven: ſee <hi>Heb.</hi> 1.4, 5. <hi>Being made ſo much better then the Angels, as he hath by inheritance obtained a more excellent name then they: for unto which of the Angels ſaid be at any time, thou are my Son, this day have I begotten thee: and again I will be unto him a Father, and he ſhall be unto me a Son.</hi> Which words are taken out of the ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd <hi>Pſalm;</hi> and though in ſome ſence they may have reference to <hi>David,</hi> yet they are by the Jews themſelves acknowledged in a more-ſublime ſence, to belong unto him that was to come into the World, <hi>to ſave that which was loſt.</hi> Upon the accompt of his Super<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ority of Chriſt <hi>above</hi> the Angels, by vertue of his Son-ſhip, the Angels of God themſelves are <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> bliged to give worſhip to our Lord Jeſus Chriſt, for in the ſixth verſe of the aboveſaid firſt Chapter of the <hi>Hebrews,</hi> we have the Apoſtle ſaying thus, <hi>And again when be bringeth <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>is firſt begotten into the world, he ſaith, let all the Angels of God worſhip him.</hi> I<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> is true, the Angels themſelves have their titles, but they are no higher then winds and flames. <hi>Pſal.</hi> 104.4. <hi>Who maketh his Angels Spirits, and his Miniſters a flame of fire,</hi> but not Jeſus Chriſt <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e gives for higher titles, calling him Eternal King: and God mentioning his <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="8" facs="tcp:100714:5"/>and his Scepter, and great Juſtice, in exerciſing his regal power, in ſuccouring the faith<g ref="char:EOLhyphen"/>ful, and puniſhing the impenitent and refractory in their words. <hi>Thy Throne,</hi> O <hi>God is for even and ever; and a Scepter of righteouſneſs, is a Scepter of thy Kingdome<g ref="char:punc">▪</g>
+               </hi> Pſal. 45.6. Heb. 1.8. So that the word, Son, here, doth plainly ſet forth, how much the Meſſias<g ref="char:punc">▪</g> that came into the World to ſave loſt man, ex<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>dles <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the Angels, and both Antient and Mo<g ref="char:EOLhyphen"/>dern writers, do agree in this aſſertion, <hi>viz.</hi> That the Son-ſhip of the M<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſſias, did demon<g ref="char:EOLhyphen"/>ſtrate him to be more excellent then the Angels, which will plainly appear, if we conſult them in this caſe; one on <hi>Heb.</hi> 1.5. ſaith thus, <hi>Quum Davidi a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t Chriſt<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> di<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ur, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> filius meus fingulare quiddam deſignat &amp; majorem excellentiam quam aliorum <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> alioqui impropria eſſes &amp; inepta haec locutio qua velut ex grege eximuntur.</hi> I confeſs that <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e Appellation of Sons is given to Chriſtians, perſevering in the ſaith of Chriſt our <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>John</hi> 1 12.13. <hi>Gal.</hi> 4.4.5, 6, <hi>Rom<g ref="char:punc">▪</g>
+               </hi> 8.13, 14, 15, 16, 17, 18. Yet Chriſt is called <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>.</p>
+            <p>
+               <hi>The Son;</hi> Magiſtrates have that name, <hi>Pſal.</hi> 82.6. Yea, the Angels themſelves <hi>Job.</hi> 1.6, 2, 18 31, 7. But we muſt underſtand it to be given to them, <hi>Modo generali &amp; impropri<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>;</hi> but when we find this Son-ſhip, mentioned in reference to Chriſt, we are to underſtand it to be ſpoken concerning him, <hi>modo particulari; Thou art my Son, this day have I begot<g ref="char:EOLhyphen"/>ten thee.</hi> And a Father of 1300 years ſtanding, telleth us, that it is the tradition of the Jews that the Meſſias is to be preferred before the Angels, and the Saints of God; <hi>Trad<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>io e<g ref="char:EOLhyphen"/>nim adhuc eſt inter eos Meſſiam evehendam ſuper Abrahamum &amp; Moſem &amp; Angelos miniſtra<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>res.</hi> And,</p>
+            <p n="2">2. This brings me to the other reaſon, why Chriſt is called the Son, to ſhew that he is preferred before the reſt of Gods Meſſengers and Servants; as for example;</p>
+            <p n="3">3. <hi>Moſes,</hi> who was indeed faithful in the diſcharge of his office, in the houſe of the Eter<g ref="char:EOLhyphen"/>nal God, but it was in the Condition and qualification of a Servant; but Chriſt appeared faithful, as a Son; ſee <hi>Heb</hi> 3.1, 2, 3, 4, 5, 6. <hi>Wherefore, holy brethren, partakers of the hea<g ref="char:EOLhyphen"/>venly calling, conſider the Apoſtle and High prieſt of our profeſſion, Chriſt Jeſus, who was faith<g ref="char:EOLhyphen"/>ful to him that appointed him, as alſo</hi> Moſes <hi>was faithfull in all his houſe; for this man was ac<g ref="char:EOLhyphen"/>counted worthy of more glory then</hi> Moſes, <hi>in as much as he who hath builded the houſe, hath more honour then the houſe. For every houſe is built by ſome, but he that built all things is God, and</hi> Moſes <hi>verily was faithful in his houſe as a Servant, for a teſtimony of thoſe things which were to he ſpoken after, but Chriſt, as a Son over his own houſe, whoſe houſe, are we, if we hold Fair the Confidence, and the rejoycing of hope, firm unto the end.</hi> From all which I gather this undeniable Maxime, That although <hi>Moſes</hi> had in his time the greateſt honours conferred on him, in reward of his fidelity, towards Almighty God, yet he is ſtill termed a Servant; but when any thing is ſpoken of Chriſt, when brought to publick view, by way of compariſon, with the greateſt of the Heroes before him, he is pre<g ref="char:EOLhyphen"/>ferred before them all, as a Son, the eldeſt Son, &amp; Maſter of the Family; ſo that now we ſee plainly the reaſon of this appellation. The Son, as a learned Father ſaith, upon the<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e words, <hi>Chriſtum ante Angelis praetulit nunc &amp; Moyſi quem Judaei, facilé putarent<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Angelis praeſtare quos Scriptura non Amicos</hi> (<hi>ut</hi> Moſem) <hi>ſed miniſtros vocat.</hi> It is true, that what was ſpoken of <hi>Moſes</hi> may be ſaid of Jeſus Chriſt, but that which is ſpoken of Jeſus Chriſt, cannot properly be ſaid of <hi>Moſes.</hi>
+            </p>
+            <p>The Jews that did believe Jeſus to be the Chriſt, and the Meſſias, that ſhould come in<g ref="char:EOLhyphen"/>to the VVorld, yet ſtill they were great admirers of <hi>Moſes,</hi> and of the reſt of thoſe great men, who had the conduct of affairs, in their ſeveral generations, and were ſometimes inclined to judge an equality to be betwixt <hi>Moſes</hi> and Chriſt. The Apoſtle therefore to
+<pb n="9" facs="tcp:100714:5"/>take them off from putting ſo great a diſhonour upon the Captain of their ſalvation, tells them, that Chriſt was counted worthy of more glory, then <hi>Moſes;</hi> for though Chriſt was a Servant of God, as well as <hi>Moſes,</hi> and a friend of God, as well as <hi>Abraham,</hi> yet he was to be preferred, becauſe he was a Son; and the Sons amongſt the Jews were preferred be<g ref="char:EOLhyphen"/>fore Servants and friends, and the eldeſt Son, before all the family; ſo Chriſt being the eldeſt Son, the firſt begotten among many brethren to him is given the preheminence; the Jews, though reduced to the obedience of faith, yet through the habit of a different Educa<g ref="char:EOLhyphen"/>tion were unwilling to forſake the great veneration they had for their great conductors, to whom they gave more honour and reſpect, than they did to the Angels themſelves, for they termed them the Friends of God: but the Angels, thoſe Celeſtial beings, were onely termed Gods Servants. So that it is very probable, that when the Apoſtle prefers Chriſt before the Angels, it was a Doctrine that they were more eaſily induced to believe; &amp; there<g ref="char:EOLhyphen"/>fore after he had given undeniable reaſons to convince them, that the Sonſhip of the Meſſias did intitle him to more glory &amp; honour,, than Gods holy Angels, he comes to give them the like arguments, to oblige them to believe this Sonſhip of Chriſt intitles him to more glo<g ref="char:EOLhyphen"/>ry than <hi>Moſes</hi> himſelf, to whoſe Law they gave ſuch veneration, inſomuch that they thought none could be ſaved, but thoſe that did obſerve it, <hi>Acts</hi> 15.1. And ſeeing that they had ſuch an eſteem for <hi>Moſes</hi> it would be a matter of difficulty to make them to believe the prehemi<g ref="char:EOLhyphen"/>nency of Jeſus Chriſt above him. Therefore the Apoſtle, in theſe firſt fix Verſes of the third Chapter of the <hi>Hebrews,</hi> endeavours upon the account of the Sonſhip of Chriſt, to manifeſt him to be worthy of more glory than <hi>Moſes,</hi> who though he was Gods Favourite, &amp; faith<g ref="char:EOLhyphen"/>ful in Gods Houſe, yet it was as a Servant; but Chriſt; he was not onely God's Favou<g ref="char:EOLhyphen"/>rite, and (not onely) faithful in the houſe of God as a Servant, but alſo as a Son.</p>
+            <p n="2">2. I am now come to ſhew you why he is called, in my Text, <hi>The Son of man.</hi> There are ſeveral reaſons for this,</p>
+            <p n="1">1. That being Man, he might know our miſeries, and how he might ſuccour them that are tempted; which he could not have done, had not God conſtituted him a faithful and a merciful High Prieſt, in things appertaining to his Divine Majeſty, in order to make reconciliation for the ſins of the people. For it is irrational to conclude, that this great deſign could have been effected, had not Chriſt been in all things made like unto his brethren; for by this means, Jeſus the Son of Man was made obnoxious to the like ſuffer<g ref="char:EOLhyphen"/>ings and temptations that man lies under; and therefore being made like unto man in all things (ſin onely excepted) he is able to ſupport and carry us through temptations, and ſuccour us in the hour of trial.</p>
+            <p>It is a natural Maxim, that none can be conceived to be more inclined to ſhow com<g ref="char:EOLhyphen"/>paſſion to thoſe that are objects of pity, than thoſe that are and have been compaſſed with ſorrows and temptations. Hence it is, that <hi>Chriſt took not on him the nature of Angels, but the ſeeds of Abraham, Heb.</hi> 2.16.17, 18. <hi>For verily</hi> (ſaith St. <hi>Paul</hi>) <hi>he took not on him the nature of Angels, but he took upon him the ſeed of Abraham:</hi> that is, he laid not hold of Angels as they fell, and were carried away captive from him, to ſave or reſcue them from ruine, or to bring them out of captivity, but onely to men doth he extend this favour of reſcuing and ſaveing them from ruine. <hi>Wherefore</hi>) ſaith the ſame Apoſtle, <hi>ver.</hi> 17.) <hi>in all things it behoved him to be made like unto his brethren; that he might be a merciful and a faithful high Prieſt in things pertaining to God, to make reconcilation for the ſins of the people.</hi> From which words we may ſee that it was not the deſign of God, that Jeſus Chriſt his Son, by an E<g ref="char:EOLhyphen"/>ternal
+<pb n="10" facs="tcp:100714:6"/>eternal Generation. ſhould come in an Angelical guiſe or glory, but in a humble ſuffering condition, that he might be better qualified to have compaſſion on thoſe who are in <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> fall'n condition; and the Sons of men are not thereby onely aſſured, that Jeſus Chri<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> (as the Apoſtle ſtiled him, <hi>Rom.</hi> 9.1. <hi>God bleſſed for ever</hi>) will with all fidelity diſcharg<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> his Office of a merciful and faithful high Prieſt, but according to the moſt exact meaſure<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and rules ſollicite our caſe before Almighty God, and by this means obtain relief for ou<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> neceſſities. So <hi>verſe</hi> 18. <hi>For that he himſelf hath ſuffered<g ref="char:punc">▪</g> being tempted, he is able to ſuccour the<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> that are tempted.</hi> For that it is undoubtedly true, that the doleful afflictions that ou<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> deareſt Redeemer underwent, do with an high hand make it appear, it was Gods deſig<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> then, that his Son ſhould be compaſſionate by the unparallel'd experience of temptations he ſhould be inclined to relieve and ſuccour all that fall into temptations and afflictions that attend the beſt of men on this ſide the grave.</p>
+            <p>
+               <hi>Eſtius</hi> ſaith plainly, Whereas the holy Apoſtle ſaith, <hi>that he might be a merciful high Prieſt</hi> it was, <hi>
+                  <g ref="char:V">Ʋ</g>t condoleret miſeriae noſtrae, &amp; ex eo commiſerationis affectu cauſam noſtram fideliter, &amp; ex animo apud Deum ageret: hae enim partes erant Pontificis quas Chriſtus praeſtare non potui<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> niſi naturae &amp; conditionis noſtrae particeps eſſet, cum multis aliis, &amp;c.</hi>
+            </p>
+            <p>So that we have not onely the teſtimony of the Apoſtle, and the Learned of ſubſequen<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Ages, but alſo reaſon plainly points at the ſame, <hi>viz.</hi> that one great reaſon, why Jeſu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Chriſt did take upon him the ſeed of <hi>Abraham,</hi> and was therefore ſtiled the Son of Ma<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> was, <hi>that he might ſuccour them that are tempted.</hi>
+            </p>
+            <p n="2">2. That he might deliver them from the power and fear of death, both of which were, the diſmal conſequences of the tranſgreſſion of our firſt Parents. But of theſe in their Orders</p>
+            <p n="1">1. The powers of death, which is apparent from that of the Apoſtle, <hi>Heb.</hi> 2: 14. <hi>For<g ref="char:EOLhyphen"/>aſmuch then as the children are partakers of fleſh and blood, he himſelf likewiſe took part of th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſame, that through death, he might deſtroy him that had the power of death, that is, the devi<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi>
+            </p>
+            <p>You may eaſily call to mind what <hi>Adam</hi> entailed upon his poſterity, by his neglect o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>eating of the Tree of life,</hi> and by eating the forbidden fruit, even eternal death, under which the <hi>generality</hi> of Mankind were held, till the coming of the Son of Man in the fulneſs o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> time. <hi>As in the firſt Adam all men die, ſo in the ſecond all ſhall be made alive,</hi> 1. <hi>Cor.</hi> 15.21 By the miſcarriage of our firſt parents, way was made for a deſign of our Enemy the De<g ref="char:EOLhyphen"/>vil, to hold us under death. Now therefore it is apparent, that the end of Chriſts com<g ref="char:EOLunhyphen"/>ing in the fleſh, and becoming the Son of Man, was <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> to aboliſh, or to take away all force and power, and to fruſtrate the deſign of the Devil, as the phraſe <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> doth import, and cancel that teſtament, by which, upon the account of ſin, men coming into the world, were bound over to death. But Chriſt, he being the ſon of man, deliverd man<g ref="char:EOLhyphen"/>kind from eternal death. For although by Chriſts death, temporal death is not taken away, yet it is deprived of that reigning power over man, as <hi>St. Paul</hi> elſewhere ſaith, <hi>Ro.</hi> 5.17. <hi>Firſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> if by one mans offence death reigned, by one man. &amp;c.</hi> of which reigning power, I ſay death is de<g ref="char:EOLhyphen"/>veſted, &amp; ſo of its ſting, &amp; victorious progreſs. Hence that of St. <hi>Paul,</hi> 1, <hi>Cor.</hi> 15.55, 56, 57. <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>death where is thy ſting, O Grave where is thy victory. The ſting of death is ſin and the ſtrengtho<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſin is the Law. But thanks be to God, who hath given us the victory through our Lord Jeſus Chriſt,</hi> who got the victory over death for us. For it is apparent, that Chriſt overcoming the ſharpneſs of death, did reſcue man from the power of death, ſo that it is impoſſible for man to be for ever held under it. From all which we may eaſily gather this, that Chriſtians, or Believers, who are to be brought to Heaven by Chriſt, are here in humane fleſh and ſufferings. And ſeeing that Brethren, or Fellow-children, are of like natures,
+<pb n="11" facs="tcp:100714:6"/>Chriſt therefore, who is called our Elder-brother, is declared to have part with us in fleſh and ſufferings, to this very end and purpoſe, that he might fruſtrate and make void the deſign of him that was our enemy from the beginning (which was to keep men under death and its raging power) and to reſcue man from the grave: ſo that as in <hi>Adam</hi> all di'd, ſo in him, the ſecond <hi>Adam,</hi> all might be made alive.</p>
+            <p n="2">2. From the fear of death. When Chriſt came into the world, and did deſign to eſta<g ref="char:EOLhyphen"/>bliſh another Law amongſt the ſons of men; upon which account he could not but expect, becauſe of the different nature of this Inſtitution from that which they lived under, and the corrupt diſpoſitions that they had contracted by reaſon of ſin, that this his Law would be oppoſed, and the profeſſors of this new Law would be perſecuted: therefore like a great exemplar of true courage, he ſuffers theſe experiences of temptation and affliction with<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n his own Soul, to this end, that he might ſimpathize with, and deliver them <hi>who through fear of death were in their life-time ſubject to bondage.</hi> And therefore our Apoſtle St. <hi>Paul</hi> here layeth it as a foundation of comfort to them that dreaded perſecutions, becauſe they fear death. Now that they might be able to go on in the obedience of faith, and act like Champions in their ſeveral ſtations, and fight manfully againſt the oppoſers of his Goſpel, <hi>viz.</hi> the Divel, the World, and the Fleſh, the Apoſtle aſſures them, that Chriſt hath re<g ref="char:EOLhyphen"/>deemed them from death. <hi>O death,</hi> I <hi>will be thy plagues,</hi> (Hoſ. 13.14.) <hi>O grave I will be thy deſtruction.</hi> Therefore if any be under any preſſures of ſpirit, upon the account of the pro<g ref="char:EOLhyphen"/>feſſion of Chriſtian Religion, though they do not out-live and enjoy the promiſe of deliver<g ref="char:EOLhyphen"/>ance here in this life, they ſhall riſe again to eternal joy &amp; felicity through him that loved them, &amp; gave himſelf for them, &amp; is riſen again from the dead, &amp; is become the firſt fruits of them that ſlept. Therefore the Apoſtle, <hi>Heb.</hi> 2.15. ſaith, that Chriſt did take our nature, in order to deliver them <hi>who through fear of death were all their life-time ſubject to bondage.</hi> From which I neceſſarily conclude, that the reaſon why the Meſſias was the Son of man, was, that he might take away the fears of perſecution, and death it ſelf, which makes men ſo cowardly, and keeps them in ſuch awe, that is, in a moſt unchriſtian and ſervile conditi<g ref="char:EOLhyphen"/>on, whilſt they ſee no hopes of deliverance. Therefore Chriſtians are, by the ſame A<g ref="char:EOLhyphen"/>poſtle, <hi>Heb.</hi> 12.1, 2, 3. admoniſhed, that in thoſe afflictions that ſo eaſily beſet men, they <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ay aſide all worldly love and fear that may incumber them in their Chriſtian race, and in order to this to look unto Chriſt Jeſus, who hath in himſelf endured the higheſt affli<g ref="char:EOLhyphen"/>ctions, and will be ſure to crown their ſufferings with the greateſt rewards, if they follow him with all perſeverance, &amp; patience; therefore let them conſider his patience in enduring ſuch notorious contradictions againſt himſelf, by which they might not faint, nor be wearied in their minds: <hi>Whereof</hi> (ſaith he) <hi>we being encompaſſed about with ſo great a cloud of witneſſes, let us lay aſide every weight and ſin which do ſo eaſily beſet us, and let us run with patience the race which is ſet before us, Looking unto Jeſus the author and finiſher of our faith, who, for the joy that was ſet before him, endured the croſs, deſpiſing the ſhame, and is ſet down at the right hand of the throne of God. For conſider him that endured ſuch contradiction of ſinners againſt himſelf, leſt ye be faint and wearied in your minds.</hi> Heb. 12.1, 2, 3.</p>
+            <p n="3">3. I proceed now to the third Inquiry, <hi>To what end Chriſt came into the World?</hi> the Text tells, <hi>It was to ſave that which was loſt.</hi> Here we muſt inquire,</p>
+            <list>
+               <item>I. What is to be underſtood by the word <hi>Save?</hi>
+               </item>
+               <item>II. What by the word <hi>Loſt?</hi>
+               </item>
+               <item>III. How, or in what ſence, <hi>Thoſe were loſt, whom Chriſt came to ſave?</hi>
+               </item>
+            </list>
+            <p n="1">1 What is to be underſtood by the word <hi>Save?</hi> Here two things are to be conſidered<g ref="char:punc">▪</g>
+            </p>
+            <p>
+               <pb n="12" facs="tcp:100714:7"/>Firſt, What thoſe Evils were from which Chriſt came to ſave that which was loſt.</p>
+            <p>Secondly, What Priviledges he came to inveſt them withall; for it is taken for granted that the holy and wiſe God did not deſign that Jeſus Chriſt ſhould come into the World only to deliver man out of the eſtate of periſhing eternally, but alſo to qualifie man for the enjoyments of ſuch Priviledges &amp; Immunities as were conſiſtent with a Creator to confer, and a creature to poſſeſs. I ſhall begin with the firſt Conſideration.</p>
+            <p>Firſt, What thoſe inconveninencies and dangers were, from which Jeſus Chriſt did come to ſave man, and of theſe in the order as follows.</p>
+            <p n="1">1. To ſave man from the Law, to bring him out from under thoſe diſpenſations, by which he could not reap any advantage in order to the remiſſion of his ſins; for the firſt terms being broke with God by man, they had no room left them for repentance, by which they might obtain everlaſting life and glory. Neither did <hi>Moſes</hi>'s Law give or procure pardon of ſin, it being a Law that was weak and infirm; now then if this be giv<g ref="char:EOLhyphen"/>en us for granted, it will follow, That it muſt be the deſign of Chriſt to come into the World, in order to deliver man from this Law, for it is apparent, that there was reaſon for the aboliſhing of this Law, becauſe it was ſo unable through mans weakneſs to do that which was deſigned to do, <hi>viz,</hi> the expiation of, or cleanſing us from ſin, Hence it is that St <hi>Paul</hi> tells us, <hi>Hebr.</hi> 7.18. <hi>For there is verily a diſannulling of the commandment going before for the weakneſs and unprofitableneſs thereof. Lex moralis non potuit expiare, nec ceremonialis ſanctificare.</hi> Now theſe Lawes were not deſigned by Almighty God to effect the pardon of ſin, he giving moſt of them for a puniſhment for ſin: <hi>Wherefore then ſerveth the Law <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> ſaith the Apoſtle, <hi>Gal.</hi> 3.19, <hi>it was added becauſe of Tranſgreſſions.</hi> And it was given as a judgment upon the people of <hi>Iſrael,</hi> as you may ſee, <hi>Ezek.</hi> 20.24, 25, <hi>Becauſe they had no<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> executed my judgments, but had deſpiſed my Statutes, and had polluted my Sabbaths and their eyes were after their Fathers idols. Wherefore I gave them ſtatutes that were not good, &amp; judg<g ref="char:EOLhyphen"/>ments whereby they ſhould not live.</hi> Now it is manifeſt that ſuch Laws as thoſe could make no<g ref="char:EOLhyphen"/>thing perfect, and therefore it was the deſign of the man Jeſus to come into the World to ſave men from the Yoke of this Law, and from the Curſe entailed upon the ſame.</p>
+            <p n="1">1. From the Yoke of the Law, ſee <hi>Gal.</hi> 4.4.5. where the Apoſtle ſhews us plainly<g ref="char:punc">▪</g> that when the time was come when the Almighty and Everlaſting God was pleaſed to lay the Moſaical Law aſide, then he ſent his own Son in humane fleſh, who ſubmitted to and performed the whole Law, to redeem the ſons of men from under thoſe diſpenſations even from the Moſaical performances, which was an inſupportable yoke; and while tha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Law laſted, it was a partition wall that did hinder the <hi>Gentiles</hi> from a clear underſtandin<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of the intentions that he had to do them good; &amp; thoſe that had the experience of the yoke looked upon it as a tempting of God, to put it upon the neck of others; they being ex<g ref="char:EOLhyphen"/>cuſed from its ſervitude, by vertue of Chriſts comeing into the world, ſee <hi>Acts</hi> 15.1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>Why tempt ye God to put a yoke upon the neck of the Diſciples,? &amp;c.</hi> comparing this with th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> words of the Apoſtle, <hi>But when the fulneſs of time was come, God ſent his Son made of Woman under the Law, to redeem them that were under the Law.</hi> Now that this Law w<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> ſuch an inſupportab<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e burden, doth not only appear from the nature of the Law it ſelf but alſo from the deſign of God in giving it, and the great occaſion that moved the ete<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>nal God to impoſe it upon men, and likewiſe from the inſufficiency of it, it being not abl<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to procure any eternal reward for the keepers and obſervers thereof in the ſtate they were i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+            </p>
+            <p n="2">2. Chriſt deſigned to deliver man from the Curſe of the Law, and did actually b<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> his death accompliſh this his deſign, by being made a Curſe for man, ſee <hi>Gal,</hi> 3.1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb n="13" facs="tcp:100714:7"/>where the Apoſtle ſaith in expreſs words, <hi>Chriſt hath delivered us from the curſe of the Law, being made a curſe for us; for it is written, Curſed is every one that hangeth on a tree.</hi> So that from hence we may obſerve, That there was no means in the Law left to juſtifie any but rather to bring Curſes on all; and that is apparent, becauſe all have ſinned, ſe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>ver.</hi> 10. <hi>As many as are of the works of the law, are curſed; for it is written, Curſed is every one that continueth not in all things written in the book of the law to do them.</hi> Chriſt our bleſſed Redeemer hath been pleaſed to make a ſeaſonable intrepoſition, and make known the pardon of ſin in a ſecond Covenant, and in order hereunto he did undergo the Curſe of the Law, by being hanged on a Tree. Conſider again thoſe words of St. <hi>Paul, As many as are of the works of the law, are under a curſe;</hi> that is, they are involved un<g ref="char:EOLhyphen"/>der the Curſe for every ſin they are guilty of, ſo that they are in no poſſibility of be<g ref="char:EOLhyphen"/>ing in a ſtate of being juſtified hereby, therfore Chriſt the great Reſtorer of the World did come to ſave and deliver man from the Curſe of the Law. Both of which particulars are, I think, ſufficiently proved by the Apoſtle in <hi>Gal.</hi> 5.1. <hi>Stand faſt therefore in that liberty wherewith Chriſt hath made you free, and be not intangled again with the yoke of bon<g ref="char:EOLhyphen"/>dage.</hi> Hence it is apparent, he made man free from the ſnare and ſervility of the Law.</p>
+            <p n="3">3. Chriſt came to ſave men from their vain Converſation received by Tradition from their Fathers; certain it is, that the greateſt Devotees to that Religion, had not the in<g ref="char:EOLhyphen"/>ward purity, and ſo their legal rites and external performances (in which they placed the greateſt part of their Religion, and from which there was no great matter of con<g ref="char:EOLhyphen"/>ſolation that could be obtained) were taken away, when he came to inform the World of a Religion that was attended with greater purity. The Apoſtle St. <hi>Peter</hi> doth from hence perſuade the Chriſtians to whom he directed his Epiſtle, that ſeeing they had a Father on whom they did call, then they were oblig'd to walk ſtrictly and reverently, conſidering that Chriſt by his death delivered them from their vain converſation, deriv'd from their Fathers by tradition, 1 <hi>Peter.</hi> 1.17, 18, 19</p>
+            <p n="4">4. From ſin, both in reſpect of its guilt and puniſhment, for to this end did Almigh<g ref="char:EOLhyphen"/>ty God deſign the death &amp; reſurrection of the man Jeſus; for he did ſo reconcile man to God, and roſe again from the dead, to open the gates of everlaſting life, to aſſure men upon the Terms of obedience for the future, of thoſe joys which God hath deſigned for thoſe that receive the truth in the love thereof.</p>
+            <p n="5">5. From Wrath to come, which is a Judgment that God will inflict upon thoſe that know not him, and have not been ready to yield obedience to the Goſpel of his Son Je<g ref="char:EOLhyphen"/>ſus. Now that man upon the account of an Evangelical obedience, might be ſure of his reward in another world, Chriſt came to deliver man from Wrath to come, which if he had not under taken, there would have been no room left for a reward, for thoſe that might at any time act with the higheſt zeal in the obſervation of the Law of this great Lawgiver Jeſus Chriſt the righteous one. St. <hi>Paul</hi> tells the <hi>Theſſalonians,</hi> what man<g ref="char:EOLhyphen"/>ner of entring in he had unto them &amp; how they turned to God from Idols, to ſerve the living and true God, and to wait for his Son from Heaven, whom God raiſed from the dead, even Jeſus, who had delivered them from the wrath to come: ſee 1 <hi>Theſſ.</hi> 1.8<g ref="char:punc">▪</g> 9, 10. <hi>For unto you ſounded out the word of the Lord not only in Macedonia &amp; Achaia, but alſo in en every place faith to God-ward is ſpread abroad, ſo that we need not ſpeak any thing. For they themſelves ſhew of us, what manner of entring in we had unto you, and how ye turn<g ref="char:EOLhyphen"/>ed to God from Idols, to ſerve the living and true God, And to wait for his Son from heaven, whom he raiſed from the dead, even Jeſus, who delivered us from wrath to come</hi>
+            </p>
+            <p>
+               <pb n="14" facs="tcp:100714:8"/>My deſign in thoſe words, is to ſhew, That as Chriſt delivered man from thoſe incon<g ref="char:EOLhyphen"/>veniences that might and would appear highly prejudicial to his Soul in reference to its comforts here, ſo he came to ſave man from that Wrath that might impede the Reward of its obedience to God; for he had no ſooner overcome the ſharpneſs of death, but he did open the Kingdom of Heaven to all that would accept of it upon thoſe terms on which God was pleaſed to off<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r it, and this deliverance from Wrath is built upon the juſtificati<g ref="char:EOLhyphen"/>on that man hath obtained by his blood; for if it be ſo that Chriſt hath juſtified the poſte<g ref="char:EOLhyphen"/>rity of <hi>Adam</hi> by his blood, and that he deſigned this juſtification for them by coming into the World, then it will follow, that he did deſign their deliverance from Wrath, all which appears from the words of St. <hi>Paul,</hi> Rom. 5.9. <hi>Much more then being Juſtified by bis blood, we ſhall be ſaved from wrath through him.</hi>
+            </p>
+            <p>Secondly, <hi>As</hi> the word <hi>ſaved,</hi> implies a Deliverance from thoſe inconveniences that may attend man, ſo it intimates an inveſtiture with ſome priviledges, and therefore I am now in order to illuſtrate this. I will lay down this undeniable concluſion, that as Chriſt did come into the world to ſave men from thoſe things which might hinder their comforts &amp; joys either in this world, or the next, ſo he came to do ſuch things for them as would tend highly to advance both their comforts and joys here and hereafter, which ſhall be cleared (by which means you will have a good underſtanding of the ſalvation deſigned by our Lord in my text, <hi>who came to ſave that which was loſt</hi>) in theſe particulars.</p>
+            <p n="1">1, He came to reconcile man to God, for him did God raiſe up to be a means of mans coming again to his God, whom he had forſaken by ſin, whether he were <hi>Jew</hi> or <hi>Gentile,</hi> by bringing them under ſuch a Covenant as will admit of Repentance, uſing all ſuch methods of grace &amp; mercy to the world, as might render God amicable &amp; willing to receive all that would come unto him: It is true the <hi>Jew</hi> for a time might challenge to himſelf ſome greater remarks of Gods favor than the <hi>Gentile,</hi> which did not know God, but neither of them both were ever under ſuch a Covenant as did admit of Repentance; for if a <hi>Jew</hi> had tranſgreſſed any of the Commandments of God, he was to die without mercy, or at leaſt to undergo the penalty of the Law, which the breach or trangreſſion did require. And the ſtate of the <hi>Gentiles</hi> was, I may ſay, far worſe, the covenant that they were under being but the covenant of na<g ref="char:EOLhyphen"/>ture which admits of no Repentance; for our firſt parents breaking terms with God, did bring miſery upon their poſterity, &amp; under this miſery all mankind did Groan, &amp; by this means they had excluded themſelves from the knowledge of God, and acquaintance with him, and had little or no means of reforming their lives, nor to make themſelves capable of the re<g ref="char:EOLhyphen"/>turn of Gods favor to them, till Chriſt did appear to execute the Office of reconciling men to the Eternal God, by bringing a clearer knowledg of God into the world, by pro<g ref="char:EOLhyphen"/>poſing ſuch terms &amp; means as might conduce to their happineſs, both in this world, and in the next; For conſider, that the condition of men was ſuch, as did Render them to Al<g ref="char:EOLhyphen"/>mighty God to be his enemies, for they went on in ſin, and in open hoſtility againſt him; now if it were the deſign of Jeſus Chriſt to be a means of their being ſaved, or to ſpeak the words of the Lord Chriſt himſelf in my text, <hi>To ſave that which was Loſt;</hi> then it evi<g ref="char:EOLhyphen"/>dently appears, that he muſt put them in a poſture to receive and accept this ſalvation, &amp; that muſt be by reconciling them to God: Therefore when we hear Chriſt to give notice to man that he came to ſave them, we muſt underſtand that he firſt reconciled them, by procuring pardon for their ſins by his death, to reſtore them to favor, to propoſe eaſie &amp; free conditions of mercy in his Goſpel, &amp; to uſe man ſo friendly as not to preclude the way of ſalvation, but invite him to Repentance, and to promiſe a pardon for all paſt ſins, ſo
+<pb n="15" facs="tcp:100714:8"/>that man may thereby be induced to come to God, and accept of the ſalvation which was deſigned by God through Chriſt to be offered to the World. The ſum of this a<g ref="char:EOLhyphen"/>mounts to thus much, That the deſign of Chriſt coming into the world, was to inti<g ref="char:EOLhyphen"/>tle man to all the Acts and Titles of friendſhip and kindneſs, (which are the conſe<g ref="char:EOLhyphen"/>quences of this his deſign of ſaving loſt man) which can be received from God by man or given by God to man.</p>
+            <p>In this reconciling men to God, which was effected by Jeſus Chriſt, we ſhall find theſe particulars worth our ſerious conſideration.</p>
+            <p>Firſt, That there was an intention on Gods part, that as there was a valuable conſidera<g ref="char:EOLhyphen"/>tion of the purchaſe of Chriſt by him made in procuring mans ſalvation; ſo it ſhould be ap<g ref="char:EOLhyphen"/>pliable to man without any fraud or limitation of the ſame to them; ſo that by meanes of mans being reconciled to God, he hath plainly ſet forth not only his willingneſs, but his intent and purpoſe to ſave them.</p>
+            <p>Secondly, That he hath put man into a fair poſſibility of being ſaved, ſo that if he vo<g ref="char:EOLhyphen"/>luntarily ſinneth, his deſtruction is of himſelf; for now he hath taken off from them the guile and condemnation which was brought into the world by <hi>Adam</hi>'s tranſgreſſion, ſo that the guilt of our firſt Parents ſhall not be laid to our charge.</p>
+            <p>Thirdly, Chriſt in reconciling man to God, procured for them this favour and grace from the Eternal God, that they ſhould receive from him ſuch competent meaſures of ſtrength to do his will and pleaſure, and act in his Commandments, as became the ſervants of ſo holy and good a God, as he hath been pleaſed to repreſent himſelf in Scripture to be, and be by him enabled to repent and believe, and perſevere in both unto the End, ſo that they might actually enjoy the ſalvation which Chriſt deſigned for them by his death.</p>
+            <p>Fourthly, in this great work of Reconciliation, Chriſt hath deſigned, that upon the ac<g ref="char:EOLhyphen"/>count of repenting for ſin and believing in God, through the preaching of his Name, they may be accounted righteous and blameleſs in the day when he ſhall come to judge the World in power and great glory, and have the end of their faith, even the ſalvation of their ſouls; for by virtue of the reconciliation purchaſed by the Blood of Chriſt, of which we now ſpeak, all the means of Grace are ſo ſanctified, to the very end they may appear prevalent and effectual for mans inheriting that life and glory, which we have promiſed, and Chriſt is gone before to poſſeſs for them.</p>
+            <p>Fifthly, In this work of Reconciliation, great joy and confidence is now deſigned by the Son of God; it is apparent that man having obtained this great benefit of being reconci<g ref="char:EOLhyphen"/>led to Almighty God, he hath the ground of the greateſt joy and confidence and depen<g ref="char:EOLhyphen"/>dence upon God in all conditions, that may or can befall him in this life; for now he hath not only occaſion of rejoycing in the future hopes of eternal life and glory, but alſo in his very ſufferings, in that he may, if he uſe the means, be aſſured of this, that his afflicti<g ref="char:EOLhyphen"/>ons will be made ſweet unto him, <hi>Rom.</hi> 5.3, 11.</p>
+            <p>Sixthly, In this work of Reconciliation to Almighty God, Chriſt did deſign for man boldneſs to enter into the Holieſt, that is, with all freeneſs to approach the preſence of Almighty God by prayer, <hi>Heb.</hi> 10.19. <hi>Having therefore, Brethren, boldneſs to enter into the Holieſt by the blood of Jeſut:</hi> and in <hi>verſe</hi> 20. the Apoſtle, as he ſheweth that this boldneſs <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s deſigned in the Blood of Chriſt, ſo he ſheweth us alſo by what way this en<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rance is to be made, even <hi>by a new and living way which he hath Conſecrated for us, that is to ſay, his Fleſh.</hi> The diſpenſation of the Law could not procure this priviledge, therefore in this great work of the reconciliation of man to God, Chriſt our deareſt Redeemer h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>th pro<g ref="char:EOLhyphen"/>cured
+<pb n="16" facs="tcp:100714:9"/>this confidence and freeneſs of approaching the preſence of the Almighty by a way never known before, and that a clear and living way, in oppoſition to the dead ſhadow<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and beggarly rudiments under the Law, which might miniſter matter of diſcouragement, but no conſolation and freeneſs with God in any addreſs whatever, made or to be made to his Divine Majeſty; now all this was deſign'd and accompliſh'd by his breaking down of the partition wall which hindred mans acceſs to God, and to this very end and por<g ref="char:EOLhyphen"/>poſe, that man might ſerve and worſhip this God (who thus hath manifeſted his love to them in his Son, whom he ſent to ſave that which was loſt) with all unfeignedneſs and fulneſs of Faith, reforming their lives, &amp; conforming their wills according to the Rules of the word of this Reconciliation, which I now Preach, that thoſe afflictions &amp; dangers, that may appear, might not cauſe them to waver in their conformity to the Laws of this <hi>Je<g ref="char:EOLhyphen"/>ſus,</hi> who came to ſave fallen man from ſin and Satan, to tranſlate to the happy ſtate of being the Son of God through Faith in him; which brings me to the Second Particular.</p>
+            <p n="2">2. A ſecond priviledge that Chriſt came to inveſt men withal, was the Adoption of Sons; for as he came to bring men to the friendſhip of God, and to reconcile them to that God from whom they were gone aſtray, &amp; agianſt whom they had acted open hoſtili<g ref="char:EOLhyphen"/>ty, ſo he came to renew a Relation in man to God; to this end did he deliver man from the Yoke of the Law, that he might become a Son of God, ſee <hi>Gal,</hi> 4 4.5. <hi>In the ful<g ref="char:EOLhyphen"/>neſs of time God ſent his Son made of a Woman under the Law, to redeem them that were under the Law, that we might receive the adoption of S<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ns.</hi> It is true, Man was <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he Son of God by Creation, but here is a new way, that Chriſt retrieves this Relation (forfeited by ſin and Diſobedience) of man to God, by contriving his Redemption by his Blood and deſigning his Eternal Salvation in the world to come, upon the performance o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> thoſe duties to which he is obliged by vertue of the Redemption Chriſt purchaſed for him: And to this end that he may be ſecured, that Almighty God owns this his Rela<g ref="char:EOLhyphen"/>tion, he hath given him the ſpirit of Adoption whereby they cry, <hi>Abba</hi> Father, ſo that by this ſtate of Sonſhip to God, they are deſigned to be delivered by Chriſt from the ſpirit of Bondage, again to ſear; for it is evidently true, that thoſe who were ever in a <hi>Jewiſh</hi> ſtate, and therefore might have a great right to the promiſes of God, <hi>Rom</hi> 9.4. were ſo far from being the Sons of God, that at the beſt they were but in a ſervil<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> condition, for they were obliged to thoſe performances which were ſlaviſh, and being but external, had nothing at all of any internal goodneſs in them; and theſe wer<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> done meerly for fear of diſobeydience and being puniſhed with ſtoning, &amp; the like which is the condition of Slaves, who muſt do what the Maſter commands, or be bea<g ref="char:EOLhyphen"/>ten if they perform it not; and if this were the ſtate and condition of the <hi>Jews,</hi> i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> what a Predicament the Gentiles were, I leave it to the judgment of rational men? cer<g ref="char:EOLhyphen"/>tainly the<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r condition muſt be more baſe and ſervile, haveing little or no knowledg o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> God amongſt them; therfore their Engagements to the preformances of the Religio<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> that was propoſed in the Law of Nature, muſt not come near for eminency to thoſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> which the <hi>Jews</hi> had; but Chriſt, our Lord, who is above all, God bleſſed for ever, hat<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> engaged and drawn man with more liberal Bands; the commands that he layeth upo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Man are ſweet and pleaſant, <hi>His yoke is eaſie, and his burden light, Matt.</hi> 11.29, 3<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> His Cords are the Cords of a man, and his Bands the Bands of Love: In a word, they ar<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſuch as we cannot but judge to be moſt reaſonable, and moſt agreeable with human na<g ref="char:EOLhyphen"/>ture, and to them is added, as to Sons, all ſuch promiſes of love and kindneſs, as may ob<g ref="char:EOLhyphen"/>lige man to act like a Prince in his ſtation, and run on in the courſe of obſerving theſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb n="17" facs="tcp:100714:9"/>Commands<g ref="char:punc">▪</g> nay, the diſobeying of theſe commands, are not attended with ſuch ſervile puniſhments, as of Stoning, and the like, but Paternal, as ſuſpenſion from Church fellow<g ref="char:EOLhyphen"/>ſhip and communion, which do not tend to mans deſtruction, but his reformation; not to the killing of the body, but to the ſaving of the Soul, in the day of the Lord: Now of this ſonſhip we have ſufficient evidence, in that they have deſigned for them, by Chriſts coming into the world; the ſpi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>it of adoption, which Chriſt did purchaſe for man; ſee <hi>Rom.</hi> 8.15. <hi>Ye have not received the ſpirit of Bondage again to fear, but ye have received the ſpirit of Adoption, whereby we cry</hi> Abba <hi>Father;</hi> which ſpirit, (though received by none, but by thoſe that believe, yet deſigned for all thoſe that Chriſt came to ſave, and thoſe in due time ſhall be diſcovered) is a diſpoſition of Soul formed in Man by God, whereby he expreſſeth his confidence and dependence on God's kindneſs to him as a Father, to look upon God as tender in his dealings with the ſons of men, and rich in his Evangelical Promiſes, and offers of grace and Favours in oppoſition to a more ſervile State, under which men were before Chriſt came to ſave that which was loſt: This Spirit is called the Spirit of Chriſt; ſee <hi>Gal.</hi> 4.6. <hi>And becauſe ye are Sons, God hath ſent the ſpirit of his Son into <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>our bearts, crying</hi> Abba <hi>Father.</hi> From all which, I gather this, that Man's Relation to God as a Son, appears in this, that he hath ſent the ſpirit of Chriſt into their hearts, by which they have power given them to call upon God, &amp; are enabled to make their a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>dreſſes to him, not only as God, but as their Father, the Goſpel of our ever bleſſed Redeemer aſſuring them, that they are no longer under any ſervile condition of being bound to any legal obſer<g ref="char:EOLhyphen"/>vances, but that God will deal with them (provided they keep the terms of Faith and obe<g ref="char:EOLhyphen"/>dience) according to the promiſes made to the Father of the faithful, and will juſtifie them upon the aforeſaid Terms, without thoſe Deeds of the Law: And for a further confirma<g ref="char:EOLhyphen"/>tion of this, we ſhall find the Apoſtle St. <hi>Paul,</hi> Rom. 8.16. to ſay, <hi>The ſpirit it ſelf beareth witneſs with our ſpirit, that we are the Children of God.</hi>
+            </p>
+            <p n="3">3. As Jeſus Chriſt did come to give the Sons of Men this honour and privledge of be<g ref="char:EOLhyphen"/>ing the Sons of God, ſo he came to give them the inheritance of the Kingdom of Heaven; for certainly it is a conſequence that is natural, <hi>viz.</hi> That if Chriſt in his coming to ſave that which was loſt, did deſign to bring men to ſtand in relation to God as Sons, then cer<g ref="char:EOLhyphen"/>tainly he did deſign them Heirs of ſome inheritance: See <hi>Rom.</hi> 8.17. <hi>And if children, then heirs, heirs of God, joint heirs with Chriſt.</hi> Now this priviledge of mans being deſigned to the Inheritance by the coming of Chriſt into the World, is further apparent, from theſe ſix Conſiderations.</p>
+            <p>Firſt, God hath prepared it for them; for it is apparent that when it pleaſed God to ſend his own Son into the world, to teach the ſons of men what good things he had in tended them; he alſo did give his great Delegate power to inform the World what good was provided for them upon the condition of their obedience to thoſe things he is pleaſed to propoſe in his holy Goſpel, which they have great aſſurances of enjoying: See 1 <hi>Cor.</hi> 3.9. <hi>Eye hath not ſeen, nor Ear heard, neither hath it entred into the heart of man to conceive the things that God hath prepared for them that love him.</hi> And as love is the condition here of <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>oying theſe great and good things prepared, in expreſs terms, ſo let me tell you, it i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>es all manner of obedience to the Goſpel, which is offered and preached, together with the good things therein contained, which man may enjoy, becauſe prepared, if he doth <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ot render himſelf incapable through diſobedience; for certain it is that man, by vertu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of this deſign, is an heir not only of the good things of this life, whether temporal or ſpi<g ref="char:EOLhyphen"/>ritual, but alſo of that which is to come, and if an heir, then it's certain, that this inh<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ritance
+<pb n="18" facs="tcp:100714:10"/>is provided for him, and this proviſion or preparation that is thus made, is made <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>virtue of Chriſts coming into the World.</p>
+            <p>Secondly, Chriſt's coming into the World, and fulfilling the will of God, purchaſed th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> inheritance for man; therefore the Kingdom of Heaven is called a purchaſed poſſeſſion, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> was bought for man, and man for that, by the blood of the ſon of God, <hi>not with ſilver a<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> gold, or with things corruptible, but with the pretions blood of the ſon Jeſus Chriſt,</hi> as St. <hi>P<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+               </hi> ſaith, 1. <hi>Pet.</hi> 1.19. and St. <hi>Paul</hi> in plain terms, calleth it <hi>a purchaſed poſſeſſion,</hi> Eph. 10 1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+            </p>
+            <p>Thirdly, it is promiſed to man, and therefore he is an heir by virtue of the promiſe <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> an holy God, for whom <hi>it is impoſſible to lye,</hi> Hebr. 6.18. and will undoubtedly perfor<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> this promiſe, provided man accepteth of it upon the terms it is offered: it is entailed up<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> man by an Oath of a God that changeth not, ſo that man hath good ſecurity from <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> mighty God of this inheritance, by vertue of this promiſe, which is confirmed by Chri<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> coming into the world to ſave that which was loſt.</p>
+            <p n="4">4. They have all the means of grace tending thereunto, they have the Goſpel preached <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> words adapted to their capacity, and meanes by which they may come to the knowle d<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> of God, in order to their full fruition, and perfect enjoyment of this glorious inheritan<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and as nature doth nothing in vain, ſo God in his great goodneſs deſigns all and every of <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> means of grace, to tend to the effectual enjoyment of glory and bliſs in another wor<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+            </p>
+            <p n="5">5. They have deſigned for them the earneſt of the Spirit of God, which is the earneſt of <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> purchaſed poſſeſſion, which if they do not quench or oppoſe in the Miniſtry of the wo<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> and Sacraments, it doth enlighten their underſtanding, and inform them of the height a<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> depth, &amp; length &amp; breadth of the mercies of God in reference to another life, &amp; that Sp<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> which beareth witneſs in their hearts, that they are or may be Sons of God, the ſame Sp<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> alſo beareth witneſs, that they are or may be heirs, &amp; that an inheritance is deſigned <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> them, &amp; that man may be poſſeſſor of this earneſt of his inheritance thus deſigned by <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> coming of Chriſt into the World, God hath given in his word ſuch a power and energy this ſpirit to attend it, that unleſs he be wilfully obſtinate, and ſhutteth his eyes againſt <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> truth revealed in this Goſpel, he cannot otherwiſe chooſe but receive the ſame; &amp; receive<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> the ſame, he receiveth the ſpirit in ſome degree or other, by which he is ſecured of this <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> heritance thus revealed in the Goſpel of our Lord Chriſt.</p>
+            <p n="6">6. Some have this inheritance already in poſſeſſion by vertue of Chriſts coming into <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> world to ſave that which was loſt. Now all theſe conſiderations are now made uſe of, prove that man is deſigned an heir of everlaſting ſalvation, and the way for the attain<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> hereof, is made by the Birth, Life, Death, and Reſurrection of Chriſt.</p>
+            <p>Secondly, we are to inquire what is here underſtood by the word Loſt, <hi>the Son of <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> is come to ſave that which was loſt.</hi> Here two things are to be conſidered<g ref="char:punc">▪</g> 1. the perſons <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> who they are, 2. the Loſs it ſelf.</p>
+            <p n="1">1. Let us conſider the perſons loſt, who they were, and we find them to be the wh<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> poſterity of <hi>Adam,</hi> 1 Cor. 15.22. <hi>For as in Adam all dyed, ſo in Chriſt ſhall all he made all</hi> Death it paſſed upon all, for that <hi>Adam</hi> firſt ſinned, then all his poſterity after him and w<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> loſt; for ſin was propagated upon that root and vicious example, for they ſinning in <hi>Ad<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi> dyed and ſuffered the puniſhment of their ſins: now theſe were thoſe whom Chriſt ca<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> to ſave, <hi>The ſon of man came to ſave that which was loſt.</hi>
+            </p>
+            <p n="2">2. The loſs it ſelf; they had loſt their acquaintance with God, and were gone all <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> from the wayes of his Laws, and acted contrary to the commandments given them wh<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> were written in their hearts; they were enemies to God, and acted open hoſtility
+<pb n="19" facs="tcp:100714:10"/>againſt him; and this was their ſad and diſmal State in which they muſt have periſhed to all eternity, had not God ſent his Son in the likeneſs of ſinful fleſh, to recover man thus fallen out of this loſt ſtate, into which they had ruſhed headlong, and by this means had expoſed themſelves to everlaſting puniſhment.</p>
+            <p n="3">3. We now come to inquire how thoſe perſons here in the Text, expreſſed by the word <hi>Loſt,</hi> were loſt: Some have aſſerted, and believed imprudently, that it was by the Decree and will of God, that man was thus loſt; now that we may not be deceived in this particular, let us inquire what God threatned, and what he inflicted, <hi>In the day that thou cateſt thereof, thou ſhalt dye.</hi> He threatned death, and did accordingly inflict it; for by rea<g ref="char:EOLhyphen"/>ſon of the Fall of our firſt Parents their whole poſterity became mortal, and both he and all that were before Chriſt came into the World, were leſt to a meer natural ſtate, that is, in a ſtate attended with the greateſt imperfections, &amp; without thoſe means that we through the abundant grace of God do or may enjoy; for it is plain that it was a State ſo defective by this, that none could ever enjoy the Hopes of Heaven, by any means it could afford in order thereunto, but to take away the evil ſtate of affairs into which man was introduced by the tranſgreſſion of <hi>Adam,</hi> in the fulneſs of time God ſent his Son into the World, to ſave man from this Ruine,</p>
+            <p>Again, it cannot be conceived by any man that will but conſult the dictates of Reaſon, that it ſhould be the pleaſure of the moſt high and holy God to lay a neceſſity of finning upon <hi>Adam,</hi> or upon any of his poſterity, becauſe from that time to the very appearing of the ever bleſſed Jeſus in the world, he by thoſe Lawes he propoſed to the ſons of men, hath required innocency of life, repentance and holineſs, and when Jeſus did appear, all the means of attaining a happy end were provided, even ſuch means as were conſiſtent with the grace of God to give, or the neceſſity of mankind to enjoy. The premiſes con<g ref="char:EOLhyphen"/>ſidered, I now ſhall ſum up what hath been ſpoken in reference to the explicatory part of the Text, into this one intire propoſition.</p>
+            <p>That Jeſus Chriſt, the Son of man, came to ſave the whole poſterity of <hi>Adam;</hi> or thus, that the deſign of Chriſt's coming into the world, was to ſave all men; for take notice of my Text, where Chriſt's himſelf ſaith, the <hi>Son of man is come to ſave that which was Loſt;</hi> and for the better underſtanding of which I will ſhow you; Firſt, how far the Scripture doth with an high hand prove it. Secondly what rationall arguments will appear to defend the ſame.</p>
+            <p n="1">1. How far the Scriptures do with an high hand prove it; though I now ſpeak with great grief, that it is a doctrine that hath been looked on by ſome to be a meer novelty, even by thoſe whom I reſpect for their Learning and Piety, though true it is, that many good men have oppoſed this great truth, yet their believing to the contrary, never made them ſo; for certainly their holineſs in their practices doth oppoſe their Errors in their judgments, in reference to this particular, I will therefore begin with thoſe Scriptures which in plain terms do prove this Doctrine laid down by me in this Diſcourſe.</p>
+            <p>Conſider the ſaying of our ever bleſſed Lord to <hi>Nicodemus,</hi> John 3 16. <hi>So God loved he World, that be gave his onely begotten Son, that whoſoever believed on him, ſhould not periſh, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ut might have everlaſting life.</hi> By the word <hi>World</hi> here we muſt underſtand the Poſterity of <hi>Adam</hi> (to whom God the Father was pleaſed to ſhew this favour of ſending his Son) <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oth good and bad; for true it is, that the wicked of the World, are ſometimes put for he whole World, as 1. <hi>Joh.</hi> 5.19. <hi>We know we are of God, and the whole World lyeth in <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ickedneſs;</hi> in which words the <hi>World</hi> repreſents to us only the Wicked in the World, who
+<pb n="20" facs="tcp:100714:11"/>in reſpect or their vaſt numbers and multitudes, and the inconſiderable number of the Godly, are termed the whole world; but more frequently the word <hi>World</hi> compre<g ref="char:EOLhyphen"/>hends Good and Bad, be they many or few, but never uſed for the Elect or Godly par<g ref="char:EOLhyphen"/>ty conſidered by themſelves, and then conſider this Particle <hi>Whoſoever,</hi> which ſetteth forth the univerſa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>itie of the grace of God to mankind in giveing his Son Chriſt Jeſus to the World.</p>
+            <p>For certain it is, that this Particle would appear very unneceſſary, were it not that we underſtand by the word <hi>World,</hi> the whole Poſterity of <hi>Adam;</hi> and it would deveſt the whole Verſe now recited, of its ſence.</p>
+            <p>Again, conſider the Context, as firſt the two precedent Verſes. <hi>As</hi> Moſes <hi>lifted up the Serpent in the Wilderneſs, even ſo muſt the Son of Man be lifted up, that whoſoever believeth on him, ſhould not periſh, but have everlaſting life.</hi> Now when it pleaſed God to direct <hi>Moſes</hi> to make a Brazen Serpent, and lift it up, he did it not with an intent only of healing a few perſons, but that whoſoever did look upon it, ſhould be healed by it, <hi>Numb.</hi> 21.8. So Chriſt, who was ſent into the World to ſave man, was not ſent to ſome few, nor liſted up on the Croſs for ſome few, but lifted up that all might look upon him with an eye of Faith and live.</p>
+            <p>Then conſider the following Verſe, <hi>For God ſent not his Son to condemn the World:</hi> Now it is impoſſible to expound the word <hi>World</hi> here, to be the Elect, but all men, who by ſin were in a ſtate of Condemnation, till <hi>Jeſus Chriſt</hi> came into the World; therefore the ta<g ref="char:EOLhyphen"/>king the word <hi>world</hi> in this fence doth ſet forth and magnifie the love of our holy &amp; good God; for certainly it can't appear ſo lovely in the apprehenſions of men, when intended but for a few, in reſpect of the ſons of <hi>Adam,</hi> as when deſigned to be extended to all.</p>
+            <p>Again, conſider how God in all the Holy Scriptures hath been pleaſed to expreſs him<g ref="char:EOLhyphen"/>ſelf to have abundance of grace, ſweetneſs, love, mercy, pity, and kindneſs, to hate nothing that he hath made, and wills the ſalvation of them, that die and periſh for ever; look upon thoſe compaſſionate expreſſions of his, to the vileſt of men, <hi>Why will ye die ye Houſe of Iſra<g ref="char:EOLhyphen"/>el?</hi> &amp;c. Now if we take the word <hi>world</hi> in its genuine latitude, we ſhall find it to have an <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>exact conſiſtency with all thoſe lively intimations, nay demonſtrations of thoſe excellen<g ref="char:EOLhyphen"/>cies of the eternal God; &amp; we find them confirmed in giving his Son to the world, to ſave that which was loſt, otherwiſe we muſt of neceſſity judge that Jeſus Chriſt did come in his own Name, and not in the Name of the great God; and to preach Doctrines of his own invention, and not the Will of his Heavenly Father, or elſe we muſt look upon God, who <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s Truth it ſelf, to pretend very fairly to men in the Old Teſtament, &amp; unkindly in the New<g ref="char:punc">▪</g> 
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> And beſides all this, let us conſider what the learned have ſaid in all Ages upon this very Text now in debate; ſee <hi>Gualter</hi> in his 20. Homily on the Goſpel, according to St. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ohn, <hi>Et hoe quidem clarius exprimit quando cos nominaturus quos it a dilexerit Deus, non</hi> A<g ref="char:EOLhyphen"/>brahami <hi>aut</hi> Iſaacci <hi>aut</hi> Jacobi <hi>aut</hi> Moſis <hi>aut</hi> Davidis <hi>Prophetarum</hi> Mariae <hi>virginis Apoſtolo<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>um deniq, &amp; ſanctorum martyrum meminit, ſed mundi, quem totum in malo jacere Evangeliſt a <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oſter teſtatur &amp; cujus principem eſſe diabolum ipſe Chriſtus non uno lo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o affirmat.</hi> From which words, I do obſerve that this judicious and reverend Divine doth not terminate Gods <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ove to ſome few particular perſons, but according to the ſence of our bleſſed Redeem <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r, doth by the word <hi>world,</hi> underſtand the generality of all Mankind, and by this means <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oth rende Jeſus Chriſt to ſpeak that which was conſiſtent with the Intentions, Decrees, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd Predeterminations of the moſt High God, who before Chriſt did appear in the world had manifeſted himſelf o be gracious and merciful in pardoning ſins and tranſgreſſions.
+<pb n="21" facs="tcp:100714:11"/>
+               <hi>Quar<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Salvator dictus eſt mundi,</hi> ſaith St. <hi>Auguſtine,</hi> ſpeaking of Chriſt, <hi>Niſi at mundum ſolver?</hi> ſo that both modern and ancient Writers have with one conſent upon theſe word; now in hand (viz. <hi>God ſo loved the world</hi>) underſtood by the word <hi>world,</hi> the whole poſteri<g ref="char:EOLhyphen"/>ty of fallen <hi>Adam,</hi> who was the beginning of ſin, and entailed the misfortune of dying, and being ſubject to ſorrow upon his whole poſterity; which brings to mind that ſaying of S. <hi>Paul, Rom.</hi> 5.18. <hi>Therefore as by the offence of one, judgment came upon all men to condemnation, even ſo by the righteouſneſs of one, the fe<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>giſt came upon all men to juſtification of life;</hi> ſee <hi>verſ.</hi> 19. <hi>For as by one mans diſobedience many word made ſinners, ſo by the obedience of one, ſhall ma<g ref="char:EOLhyphen"/>ny be made righteous.</hi> In which you may ſee two ſorts of perſons repreſented to your con<g ref="char:EOLhyphen"/>ſideration, the one condemned to death by reaſon of <hi>Adam</hi>'s offence, and the other juſti<g ref="char:EOLhyphen"/>fied to life by Chriſt our Lord: Now who were they that were condemned? they were no more than all: and who were they that were juſtified? no fewer than all, in the other verſe; no more than <hi>many</hi> were made ſinners by <hi>Adam;</hi> nor any fewer than <hi>many</hi> made righteous by Chriſt. God certainly ſuted the ſalve not only in reſpect of its quality, but alſo in re<g ref="char:EOLhyphen"/>ſpect to its quantity to the ſore; the larger the malady was, the larger extent the remedy was to be of; therefore we may ſee the coextenſiveneſs of the Grace of God in his Son Je<g ref="char:EOLhyphen"/>ſus, in order to the juſtification of men, with the ſin of our firſt Parent, in reſpect of the condemnation of men; ſo that as we are induced to believe, that by the diſobedience of one, many have been made ſinners, and ſo guilty of, and liable unto death, [that is, that all <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>en as they come reſpectively, to be conceived and born, are now made liable to death, by the diſobedience of one being long ſince acted, and ſhould have periſhed for ever, had <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ot the abundant grace of a good God prevented it] ſo certainly it will appear and be <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ound true in due time, that many, even as many, yea, the ſelf ſame, both number and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>erſons in their ſucceſſive conceptions alſo, and comings into the world, with thoſe that <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>re already paſt ſhall be made righteous; that is, have been, and ſhall be delivered from <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e guilt of that ſin, and liableneſs to death by the obedience of one man that is, by the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>bmiſſive deportment of Jeſus Chriſt towards the moſt high and eternal God, in yielding <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>imſelf up to death. From all which I draw this concluſion (remembring the voice from <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eaven to St. <hi>Peter,</hi> Acts 10.15. <hi>Call not thou common, that which God hath cleanſed.</hi>) that is not ſafe for any man to make that number leſs, which God hath made greater; nor <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> aſſert a ſignal diſproportion between two numbers, which God hath computed and <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>awn up to a perfect equality.</p>
+            <p>Another Text appears alſo ready to vindicate the truth of this Propoſition now in <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>bate and that is the words of St. <hi>Paul</hi> in his Epiſtle to <hi>Timothy,</hi> 1 Tim. 2.1, 2, 3, 4, 5, 6. I <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hort therefore that firſt of all ſupplications, prayers, interceſſions, and giving of thanks be made <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> all men, for Kings, and for all that are in authority, that under them we may lead a quiet <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d peaceable life in all godlineſs and honeſty; for this is acceptable in the ſight of God our Savi<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r, who will have all men to be ſaved, and come to the knowledge of the truth; for there is one <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d, and one Mediator betwixt God and Man, the Man Chriſt Jeſus, who gave himſelf a ranſ<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> for all.</hi> In which words confider the duty enjoyned, and that we find in the firſt <hi>Verſe,</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>preſſed, where S. <hi>Paul</hi> adviſeth <hi>Timothy,</hi> &amp; all thoſe that were committed to his charge <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d care, that not only in publick, but in private, ſupplications be made for averting all <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ings that were hurtful either to ſoul or body; ſecondly, Prayer, in order to obta<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n all <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>od things that were neceſſary; and thirdly, Interceſſion for others, &amp; thankſgivings for <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ercies already received, and this not only for themſelves, but alſo for all mankind. In <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 2. <hi>verſe</hi> this Apoſtle is more particular in his change, and wills that the aforegoing
+<pb n="22" facs="tcp:100714:12"/>Office be made for the Civil Magiſtrate; and what ſort of men Civil Magiſtrates wer<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> when this epiſtle was written, you may eaſily judge, if you conſult the Hiſtory of the Church ye<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the Church was to perform thoſe good. Offices for them; And why <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o? Becauſe <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> them we owe all our peaceable living in any place in the exerciſe of Religion, &amp; a virtuo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Life; and therefore it was then, and is now but reaſon, that Prayers and Thankſgiving ſhould be made for them. And how is this made good? <hi>For this is acceptable in the ſight <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> God our Saviour,</hi> that is, this is that which God Almighty under the moſt Sacred diſpen<g ref="char:EOLhyphen"/>ſation of his Goſpel requires at our hands; he having enjoyned us by his Son, the ever ble<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed Jeſus, to pray for our Enemies here, enjoyns us by the holy Apoſtle, to pray for Mag<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ſtrates, even for thoſe that perſecute his Church, whether they be <hi>Heathens, Jews, Turks,</hi> or <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> any particular unbelieving, &amp; that becauſe he gives us his moſt holy example of deſiring th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſalvation of all men; and in order to this he hath provided ſuch powerful and effect o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> means to bring them to a Reformation of their Lives, though never ſo wicked, and now <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> entertain the Goſpel of his Son; and for this he give, this reaſon, that there is but o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> God who deſigns the good of all, and one Mediator and Peace-maker between God an<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> man, even he that hath taken our common nature upon him, and in it dyed for all tho<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> whoſe nature he aſſumed, the man Chriſt Jeſus.</p>
+            <p>Conſider elſe how weak the Apoſtles Argument will appear, by which he perſuad<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Chriſtians to perform thoſe duties for all men, if ſo be that Chriſt in coming to ſave th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> which was loſt, did not deſign and intend the ſalvation of all and every man; for certa<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> it is, that it is as lawful for me or any man to pray for the recovery of the fallen Ange<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>at of their diſmal ſtate of darkneſs, as for thoſe men whom God in Chriſt did never deſig<g ref="char:EOLhyphen"/>nor intend to ſave when he came into the World.</p>
+            <p>Another Teſtimony that ſpeaks very plain in vindication of this Propoſition, is tha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of St. <hi>Paul,</hi> 2. Cor. 5.14.15. <hi>For the love of Chriſt conſtraineth us, becauſe we thus judge that if one died for all, then were all dead; &amp; that he died for all, that they which live, ſhould m<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>neeforth live unto themſelves, but unto him which died for them, and roſe again.</hi> The Apoſt<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> here teacheth us, that mans love to Jeſus Chriſt is founded on his to us, and hath in it a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> obliging power to make us do whatſoever it will have us, making this Argument fro<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> this certain truth of Chriſts having dyed for all men, that then certainly all men were ſin<g ref="char:EOLhyphen"/>ners, lapſed into a loſt ſtate, and ſo without hope; that unleſs ſome means had been uſed <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> recover them, they muſt have periſhed to eternity. Another place worth our ſerious con<g ref="char:EOLhyphen"/>ſideration, is that of <hi>Heb</hi> 2.9. <hi>For we ſee Jeſus, who was made a little lower than the Angel for the ſuffering of death, crowned with glory and honor, that he by the grace of God ſhould t<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> death for every man.</hi> From all which I gather this undoubted Truth, that the great deſig<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> of Almighty God in the humiliation of the Meſſias for a while, even to the death of th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Croſs, was for the Redemption of all and every of the ſons and daughters of <hi>Adam,</hi> for we conſider rationally the import of this Clauſe, we cannot judge of the atonement made <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Chriſt to be for any fewer than thoſe that lay under the diſmal conſequences of <hi>Ada<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi> Tranſgreſſion, for the words ſhew, that the Lord Chriſt, though clothed with a bo<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> of fleſh, wherein he was capable of dying as well as other men, yet did not ſuffer dea<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> ſimply, through the malice of his Enemies, but upon an account far ſuperior unto tho<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> for the Apoſtle attributes his death to the grace of God, <hi>that be through the grace of God,</hi> th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> is, through the love and gracious affections of God, not towards ſome, or a ſew, no n<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> yet towards all men collectively taken, but towards all men diſtributively taken, that <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> towards every particular &amp; individnal perſon, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> ſaith the Holy Ghoſt, <hi>for eve<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>an,</hi>
+               <pb n="23" facs="tcp:100714:12"/>that is, to procure eternal redemption and ſalvation for every man, without the ex<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uſion of any: conſider 2 <hi>Cor.</hi> 5.19.1 <hi>John</hi> 2.2. 2 <hi>Pet</hi> 3.9. 2 <hi>Pet</hi> 2.1. and many o<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>er places at your leiſure.</p>
+            <p>I now come to ſhew what rational Arguments may be uſed, in order to a clear diſco<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ery of the Truth of the Point in hand, and of thoſe in their order.</p>
+            <p n="1">1. Becauſe God hath not determined the deſtruction of any man, but deſires the ſal<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>tion of all, and every man; for certain it is, that man, or thoſe men, cannot be pro<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>erly ſaid to be loſt in the ſence of our Lord Chriſt, if ſo be God had determined their <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ernal ſtate of miſery <hi>ab aterno;</hi> but that I may be plain in the proſecution of this Ar<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ument, I will lay it thus; If God hath determined the deſtruction of no man, but would <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ve all men to be ſaved, then he ſent his Son to ſave all men, but God hath determined <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e deſtruction of no man, but would have all men to be ſaved, therefore he ſent his <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>on to ſave all men.</p>
+            <p>As to the firſt Propoſition of this Argument, it is apparent that all Gods actions are <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>table to his deſires and deſigns, eſpecially when ſpoken of in reference to the Redemp<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>on of man; and if ſo be we can but perſuade you to be convinced of this great truth, <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>at God deſires the ſalvation of all men, and determines the deſtruction of no man, then <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> will follow that God, in point of wiſdom and honour, would appoint a way for the <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>demption and ſalvation of all men; even when his Son came into the World, as the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oſt proper means of mans recovery, God then in him would appear actually to ſhew <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ercy unto thoſe whoſe ſalvation he did thus deſign.</p>
+            <p>As to the ſecond propoſition that God determines, the deſtruction of no man, but, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ould have all men to be ſaved, will be made appear by many infallible demonſtrations, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d thoſe I will offer to you in their place as follows.</p>
+            <p n="1">1. It is inconſiſtent with the holineſs of God to determine any mans deſtruction, with<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>t reſpect to ſin; for it is apparent, that if God hath abſolutely determin'd the deſtruction <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſome men, then in it follows, that he determin'd them to ſuch a ſtate of ſin, in order <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> their ſufferings; now this is altogether inconſiſtent with the holineſs that God requires <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>m us, and much more, with that which is moſt pure in himſelf; you know, that for <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>an to be an acceſſary to ſin, ſtands as guilty in the ſight of God, as if he were a Prin<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>al, and much more if he ſhould neceſſitate a man to any irregularity; now if this be <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to be charged upon a Rational man, let us not charge it upon a Righteous, and holy <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d, who cannot behold iniquity without Judging, and therefore is far from determining <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> man to ſin which neceſſarily follows, if he abſolutely from all eternity hath determi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> him to puniſhment.</p>
+            <p>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. It is inconſiſtent with Gods mercy, and alſo with thoſe expreſſions of mercy to man<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d, to determine any mans ruine, nay it is a part of his title, Gracious and Merciful, <hi>Exod.</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 6, and in the New Teſtament he hath declared himſelf to be a God, and father of Love, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> God of all Conſolation, <hi>Job.</hi> 4.16. 2 <hi>Cor.</hi> 1.3. <hi>A Saviour of all Men.</hi> 1 Tim. 4, 10. <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n he puniſheth it is not willingly,</hi> Lam. 3 33. <hi>He is ſlow to anger, but abundant in Goodneſs, flower Mercies every day, but inflicts Judgments now and then,</hi> Now this abſolute de<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ining of Man to eternal puniſhment, is inconſiſtent with the frequent repreſentations <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he makes to us of himſelf in his Word, and to the Experience we have of his kindneſs <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ards us; and can we believe that mercy pleaſeth him, when he tak<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eth pleaſure in ſuch <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iries as are not conſiſtent with the nature of true mercie, and by this we ſhall tender Moſt High a Deſtroyer, and not a Saviour of Mankind.</p>
+            <p n="3">
+               <pb n="24" facs="tcp:100714:13"/>3. it is inconſiſtent with Gods juſtice, abſolutely to determine the deſtruction of a Man, <hi>The Lord is Righteous in all his wayes,</hi> Pſal. 145. <hi>The judgments of the Lord</hi> (fa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>Solomon</hi>) <hi>are weight and meaſure.</hi> That is, exact without exception; He is ſo juſt, that <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> appeals to man, and calls him to judge of his proceedings: <hi>Iſa,</hi> 5.3. <hi>Judge I pray you <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> ween me and my Vineyard;</hi> Now to determine the deſt<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ction of any man without the c<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ſideration of ſome perſonal ſin or ſins of his own, is ſo far from ſuch appeals to hum<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> underſtandings, that it is not to be changed upon God, who acts with men according <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the Law he hath made with them; for it is apparent he muſt lay a neceſſity of ſinning <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> them by reaſon of ſuch a Decree.</p>
+            <p n="4">4. It is inconſiſtent with God's truth, you know that God is a <hi>God of truth, Deut.</hi> 32. <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>Truth it ſelf,</hi> Job 14.6. If God commands obedience, and yet makes man uncapable <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> obeying, how is this conſiſtent with the truth of his Commands, and certainly ſuch an a<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> ſolute determination to deſtruction doth render man wholly uncapable of fulfilling t<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> will of God; and if God offers grace to mankind, and deſignes that men ſhall not rece<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> it, how is this conſiſtent with the reality of his offer? now to offer grace to all men, yet <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> means of an inevitable Decree of moſt mens periſhing, he doth by this render men und this Decree uncapable of this grace, and in that mocl<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eth men, and will appear rather <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> be a God that delights in falſhood, than in truth? <hi>Piſcator</hi> telleth us roundly, <hi>Et ſi <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> probos mandat Deus ut Evangelie credant, non <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ult tamen ut credant.</hi> This is a direful <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> preſſion<g ref="char:punc">▪</g> and again, in another place, the ſame Author ſaith, <hi>Gratia non offertur a <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eo <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> gulis (licet vecatis) animo comunicandi eam, ſed ſoli<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> electis;</hi> many ſuch hard expreſſions h<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> this author, by which I apprehend the moſt High and true God to be by him charged w<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> ſuch fal<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hoods, as are not to be endured betwixt man and man, and therefore ſee<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> that neither the Holineſs Merey, Juſtice, nor truth of God will admit of this ſtrange <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> poſition, that God ſhould from all eternity decree the deſtruction of a great part of ma<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>kind then if will follow that the attributes of God muſt be highly juſtified by our doctrine <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> being compatible with it; and if this be given for granted, then we have cleared this ſeco<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> propoſition, that God hath not determin'd the deſtruction of any man, but would ha<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> all men to be ſaved; and this being proved, I conclude this Argument thus, that <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> premiſes being ſure and certain, the Concluſion that muſt be deduced from all, is, that J<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> Chriſt came to ſave all Men.</p>
+            <p n="2">2. Becauſe God hath obliged all men to believe that Jeſus Chriſt came to ſave <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> men, therefore this ſhall be my ſecond Argument. If that all men are bound to <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> lieve in Jeſus Chriſt for ſalvation, then Jeſus Chriſt came to ſave all men; but all men <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> bound to believe in Jeſus Chriſt for ſalvation, therefore Jeſus Chriſt came to ſave all mea<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> firſt Propoſition certainly cannot be denyed, for God did never oblige any man to <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> lieve a lie, and God himſelf hath laid an injunction upon man to the contrary; and bef<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> all this, that God is ſo far from enjoyning any man to the believing lies, that he h<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> puniſhed his own People for putting their truſt in Lies, and hath laid it upon others, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Remark of his great anger againſt them, that they were given up to believe a Lie, to <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> end that they might be damned, for not receiving the Truth in the love thereof. Now the<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>cond propoſition is apparent, that all men are bound to believe in Jeſus Chriſt for ſa<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>tion, if we conſider, 1. That God hath commanded all men to believe. 2. He hath pro<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ſed life and ſalvation to thoſe that believe. 3. He threatneth damnation to thoſe that be<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> nor. 4. He uſeth all ſuch Arguments of Incouragement as may induce men to belie<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Jeſus Chriſt for ſalvation.</p>
+            <p n="1">
+               <pb n="25" facs="tcp:100714:13"/>I. God hath commanded all men to believe in Jeſus Chriſt, ſee <hi>Acts</hi> 17.30. <hi>And <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> of this ignorance God winked at; but now he commandeth all men every where, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o rep<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+               </hi> and conſequently to believe, for without Faith there can be no true repentance.</p>
+            <p n="2">II. God hath promiſed life &amp; ſalvation to thoſe that believe; for he hath not onely made <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> his command, but hath promiſed the greateſt Good a creature is Capable of receiving, <hi>Mar.</hi> 16.16. <hi>He that believes, and is Baptized, ſhall be ſaved;</hi> and <hi>Job.</hi> 3.16 <hi>God ſo loved the World, that whoſoever believeth on him, ſhould not periſh, but have everlaſting life.</hi>
+            </p>
+            <p n="3">III. He threatneth damnation to thoſe that believe not; for as he commandeth and pro<g ref="char:EOLhyphen"/>miſeth rewards to thoſe that obey his command in this particular, ſo he threatneth puniſh<g ref="char:EOLhyphen"/>ment to thoſe that believe not, <hi>Mar.</hi> 16.16. <hi>He that believeth not ſhall be damned.</hi> And out Bleſſed Saviour himſelf ſaith, <hi>He that believeth not in the Son of God, the Wrath of God abideth on him, and he ſhall not ſee life.</hi>
+            </p>
+            <p n="4">IV. God uſeth all ſuch arguments of Incouragement as may induce men to believe in Jeſus Chriſt for ſalvation; ſometimes he preſents them with his great love to them, <hi>Joh.</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.16. <hi>Tit.</hi> 3.4. ſometimes with the greatneſs of his mercy and tenderneſs of his compaſſion, <hi>Exod.</hi> 34.6. <hi>Luke.</hi> 1.72. ſometimes with the delight and pleaſure that he takes in ſhewing mercy, <hi>Micah.</hi> 7.18. <hi>Ezek.</hi> 33.11. ſometimes with his faithfulneſs, <hi>Heb.</hi> 10.13. 1. <hi>Cor.</hi> 10.<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>2. ſometimes with the Oath that he hath made in order to ſhew men what great ſe<g ref="char:EOLhyphen"/>curity they have of his Promiſes, <hi>Heb.</hi> 6.17.18. <hi>Luke</hi> 1.72, 73. ſometimes with his deſire of their ſalvation, 1. <hi>Tim.</hi> 2.4. ſometimes with his great grief when men appear obſtinate, <hi>Jer.</hi> 44.4. ſometimes with the great proviſion that he hath made for mans ſalvation, <hi>Mat<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> 22.4. <hi>Heb.</hi> 9.14. And laſtly, with the conſideration, of the glory that will accure to him<g ref="char:EOLhyphen"/>ſelf, and to his Grace by their believing, <hi>Eph.</hi> 1.6.12. I confeſs <hi>Piſcator</hi> hath an harſh ex<g ref="char:EOLhyphen"/>preſſion. <hi>Non vult Deus reprobos credere, licet linguâ profiteatur ſe velle;</hi> but is not this to God to deal with men in matters of ſalvation, as the Poets fain the gods to have dealt with <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oor <hi>Tantalus,</hi> ſet pleaſant food to eat, and water to drink, and yet he is capable of nei<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>her; ſo God dealeth with man, if the doctrine of <hi>Piſcator</hi> be under any circumſtance whatever to be believed; but ſeeing God hath been pleaſed to declare his intention in this <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>articular, of his willing all men to believe in his Son for ſalvation, he hath ſent his Son <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſave all; for do but ſhew me the man for whom Chriſt never died, and I will ſhew you <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e man that is not bound to believe on him; I haſten now to draw ſome inferences from <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e Diſcourſe in general, and ſo conclude.</p>
+            <p n="1">1. Seeing that God hath ſent his Son to ſave all Men, then all men are in poſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>bility of being ſaved; for certain it is, that as nature doth nothing in vain, ſo God <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oth nothing in vain, for he hath not ſent his Son to put men into a worſe ſtate, then <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ey were in by the Fall of <hi>Adam,</hi> but certainly in a far better.</p>
+            <p n="2">2. This overthrows the Doctrine of the Church of <hi>Rome,</hi> who eſtabliſheth another <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eans of Salvation; and Chriſt being made a propitiatory Sacrifice for the Quick and <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e Dead, which is a means of our life and happineſs, and of our atonement with Al<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ighty God, with what face can that abominable Strumpet introduce another propi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>tory Sacrifice to come in competition with that Sacrifice that was offered up <hi>once</hi> for all? <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>en the Sacrifice of the Maſs, which She impudently aſſerts to be a Propitiatory Sacri<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>e for the Quick and Dead.</p>
+            <p n="3">3 Seeing that Jeſus Chriſt came with an intent to ſave all men, then how ought the <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>niſters of this Salvation purchaſed by the Blood of Chriſt, endeavour by their con<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>t care over their reſpective Charges, to make known and reveal the grace of God
+<pb n="26" facs="tcp:100714:14" rendition="simple:additions"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> man<g ref="char:punc">▪</g> in order to reconcile man to God? conſider the example of <hi>St. <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.10, 11, 12. who did therefore labour in the Miniſtry of the Goſpel, &amp; <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> reproach becauſe He did truſt in the living God, who is the Saviour, of <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> eſpecially of ſuch as believe; and to this purpo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e he exhorteth <hi>Timothy,</hi> 2. Ep<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.26. meel<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ly to inſtruct thoſe that are contrary m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nded, that he might b<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> out of the ſnare of the Devil, and thereby they may render themſelves, <hi>Innoce<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> Blood of all men,</hi> Acts, 20.26, 27.</p>
+            <p n="4">4. Let us then love &amp; obey this Jeſus, who hath thus loved us, and gave himſelfe <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> us: See 1 <hi>John</hi> 4.19. <hi>We love him, becauſe he firſt loved us.</hi> And this is St. <hi>Peter</hi>'s o<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Argument, to perſuade the Chriſtians to whom he wrote, to paſs the time of their <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> journing here in fear, becauſe they were not <hi>redeemed with things corruptible, as <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſilver, or gold, from their vain converſation received by tradition from their fathers, but with <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> precious blood of Chriſt,</hi> 1 Pet. 1.17, 18.19. See that expreſſion of St <hi>Paul,</hi> 1 Cor. <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 20. <hi>Seeing,</hi> ſaith he, <hi>you are bought with a price, therefore glorifie God in your ſpirit, a <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> in your bodies, which are Gods.</hi>
+            </p>
+            <p n="5">5. Let us love one another; for ſeeing it is apparent that Chriſt came to ſave us, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> did manifeſt the love of the moſt high God by coming into the World, and dying <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> our ſin; let this oblige us to a mutual love one to another, conſidering that the <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> poſtle doth draw this duty from the manifeſtation of Gods love to us; herein is lo<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> not that we loved God, but he loved us, and ſent his Son to be a propitiation for <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſins: <hi>Beloved,</hi> ſaith the Apoſtle, <hi>If God ſo loved us let us love, one another:</hi> the<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> fore let each name of diviſion and contention ceaſe, and God will aſſiſt us here with <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> grace, and hereafter exalt us to the Kingdom of his glory, where we ſhall injoy <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> preſence of God, in whoſe preſence is fulneſs of joy, and at whoſe right hand <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> pleaſure for evermore.</p>
+            <closer>
+               <hi>Which God grant for his Son Jeſus Chriſt his ſake.</hi> Amen.</closer>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:100714:14"/>
+         </div>
+      </body>
+   </text>
+</TEI>
